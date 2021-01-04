@@ -4,7 +4,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background-color: #CBB7A4;
+    background-color: white;
     font-family: 'Open Sans Condensed', sans-serif;
 
 }
@@ -13,7 +13,7 @@ nav {
 
 /*------------logo-------------*/
 .logo {
-    color: white;
+    color: #585858;
     letter-spacing: 2px;
     font-size: 10px;
     cursor: pointer;
@@ -22,6 +22,14 @@ nav {
     left: 3vw;
     text-decoration: none;
 }
+
+.logo h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    position: relative;
+    left: 5vw;
+}
+
 
 /*------------Burgermenu-------------*/
 
@@ -35,21 +43,14 @@ body {
     right: 0px;
     height: 60vh;
     top: 13vh;
-    background-color: #CBB7A4;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 60%;
     transform: translateX(100%);
+    margin-top: -20px;
 
-
-}
-
-.logo h3 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 15px;
-    position: relative;
-    left: 5vw;
 }
 
 
@@ -57,33 +58,39 @@ body {
 .menu li {
     opacity: 100%;
     position: absolute;
-    z-index: 100;
+
 }
 
 /*    synligør menuknappen(burgerbar)*/
 .menuknap {
-    color: white;
+    color: #585858;
     font-size: 29px;
     cursor: pointer;
     position: absolute;
     right: 50px;
     /*---få burgermenu ud til højre uden brug af right px---*/
-    z-index: 100;
 
 }
 
 ul {
     list-style-type: none;
     font-family: 'Open Sans Condensed', sans-serif;
+    padding: 50px;
 }
 
 a {
-    color: white;
+    color: #585858;
     text-decoration: none;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+/********** MOBIL NAV BAR SLUT *************/
 
+/*Når menuknappen klikkes skal den tydeligøres (til javascript) */
+.menuknap_aktiv {
+    transform: translateX(0%);
+    z-index: 100;
+}
 
 
 /*
@@ -115,10 +122,3 @@ a {
 
 }
 */
-
-/********** MOBIL NAV BAR SLUT *************/
-
-/*Når menuknappen klikkes skal den tydeligøres (til javascript) */
-.menuknap_aktiv {
-    transform: translateX(0%);
-}
