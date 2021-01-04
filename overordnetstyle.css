@@ -86,7 +86,7 @@ a {
     /*    synligør menuknappen(burgerbar)*/
     .menuknap {
         display: block;
-        z-index: 10;
+        z-index: 100;
         color: white;
         position: absolute;
         right: 50px;

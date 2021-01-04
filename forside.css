@@ -2,7 +2,6 @@
 
 .splash {
     /*    background-position: center;*/
-    width: 100%;
     height: auto;
     position: relative;
 
@@ -16,4 +15,18 @@
     left: 20px;
     color: #585858;
     font-family: 'Open Sans Condensed', sans-serif;
+    /*    font-style: italic;*/
+}
+
+.section1 p {
+    text-align: center;
+}
+
+.section1 p:first-child {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.section1 img {
+    text-align: center;
 }
