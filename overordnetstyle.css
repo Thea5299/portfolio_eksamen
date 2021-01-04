@@ -25,6 +25,53 @@ nav {
 
 /*------------Burgermenu-------------*/
 
+body {
+    overflow-x: hidden;
+    /*        så man ikke kan scroll til højre og se baren*/
+}
+
+.menu {
+    position: absolute;
+    right: 0px;
+    height: 60vh;
+    top: 13vh;
+    background-color: #CBB7A4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    transform: translateX(100%);
+
+
+}
+
+.logo h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    position: relative;
+    left: 5vw;
+}
+
+
+/* menuen usynligøres indtil der klikkes på burger*/
+.menu li {
+    opacity: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+/*    synligør menuknappen(burgerbar)*/
+.menuknap {
+    color: white;
+    font-size: 29px;
+    cursor: pointer;
+    position: absolute;
+    right: 50px;
+    /*---få burgermenu ud til højre uden brug af right px---*/
+    z-index: 100;
+
+}
+
 ul {
     list-style-type: none;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -33,67 +80,11 @@ ul {
 a {
     color: white;
     text-decoration: none;
-    font-family: 'Open Sans Condensed',
-        sans-serif;
-}
-
-.menuknap {
-    display: none;
-    color: white;
-    font-size: 29px;
-    cursor: pointer;
-    position: absolute;
-    right: 10vw;
-
-
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
 
-@media screen and (max-width: 750px) {
-    body {
-        overflow-x: hidden;
-        /*        så man ikke kan scroll til højre og se baren*/
-    }
-
-    .menu {
-        position: absolute;
-        right: 0px;
-        height: 60vh;
-        top: 13vh;
-        background-color: #CBB7A4;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 60%;
-        transform: translateX(100%);
-
-    }
-
-    .logo h3 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 11px;
-        position: relative;
-        left: 5vw;
-    }
-
-
-    /* menuen usynligøres indtil der klikkes på burger*/
-    .menu li {
-        opacity: 100%;
-    }
-
-    /*    synligør menuknappen(burgerbar)*/
-    .menuknap {
-        display: block;
-        z-index: 100;
-        color: white;
-        position: absolute;
-        right: 50px;
-        /*---få burgermenu ud til højre uden brug af right px---*/
-
-    }
-}
 
 /*
 ********* MOBIL NAV BAR ************

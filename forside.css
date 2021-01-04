@@ -4,7 +4,6 @@
     /*    background-position: center;*/
     height: auto;
     position: relative;
-
 }
 
 
@@ -27,6 +26,23 @@
     font-size: 20px;
 }
 
-.section1 img {
+.billede1 {
     text-align: center;
+}
+
+.ommig {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #585858;
+    background-color: #e3e3e3;
+    padding: 1px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: block;
+    width: 59.2%;
+    margin-left: 46.3vw;
+    margin-top: 6.5vw;
+
 }
