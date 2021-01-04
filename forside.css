@@ -1,0 +1,19 @@
+/*------------Splashbillede-------------*/
+
+.splash {
+    /*    background-position: center;*/
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+
+.text {
+    position: absolute;
+    text-align: left;
+    bottom: 20px;
+    left: 20px;
+    color: #585858;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
