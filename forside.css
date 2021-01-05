@@ -4,6 +4,7 @@
     /*    background-position: center;*/
     height: auto;
     position: relative;
+/*    Splashbilledet skal være i lodretformat og fylde hele vinduet i mobilversion*/
 }
 
 
@@ -131,4 +132,46 @@
     margin-top: 10vw;
 
 
+}
+
+/*------------Section4-------------*/
+.box {
+    background-color: #D5C5AE;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 205px;
+    margin-right: auto;
+    position: relative;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+#mig {
+    position: relative;
+    margin-left: 70px;
+    margin-top: -125px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 300px;
+    z-index: 2;
+}
+
+.textbox {
+    background-color: #e3e3e3;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.section4 p {
+    font-size: 13px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    letter-spacing: 0.5px;
+    margin-left: 15px;
+}
+
+.section4 p:first-child {
+    font-style: italic;
+    font-size: 20px;
 }

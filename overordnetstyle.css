@@ -55,11 +55,15 @@ body {
 
 
 /* menuen usynligøres indtil der klikkes på burger*/
+/*
 .menu li {
     opacity: 100%;
     position: absolute;
 
+
+
 }
+*/
 
 /*    synligør menuknappen(burgerbar)*/
 .menuknap {
@@ -76,12 +80,16 @@ ul {
     list-style-type: none;
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 50px;
+    letter-spacing: 5px;
+    line-height: 40px;
 }
 
 a {
     color: #585858;
     text-decoration: none;
     font-family: 'Open Sans Condensed', sans-serif;
+
+
 }
 
 /********** MOBIL NAV BAR SLUT *************/
@@ -91,34 +99,3 @@ a {
     transform: translateX(0%);
     z-index: 100;
 }
-
-
-/*
-********* MOBIL NAV BAR ************
-
-@media screen and (max-width: 1024px) {
-    .menu {
-        width: 55%;
-        position: absolute;
-        left: 40vw;
-    }
-
-    .logo {
-        color: white;
-        letter-spacing: 2px;
-        font-size: 30px;
-        cursor: pointer;
-        font-family: 'Playfair Display', serif;
-        position: absolute;
-        left: 5vw;
-    }
-
-    .logo h4 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 11px;
-        position: relative;
-        left: 1vw;
-    }
-
-}
-*/
