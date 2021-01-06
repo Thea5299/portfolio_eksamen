@@ -99,3 +99,16 @@ a {
     transform: translateX(0%);
     z-index: 100;
 }
+
+
+/*----------Footer----------*/
+#footer {
+    background-color: #CBB7A4;
+    position: relative;
+    margin-top: 80px;
+    height: 80px;
+}
+
+.some_wrapper {
+    /* font skal sættes ind  */
+}

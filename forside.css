@@ -4,7 +4,7 @@
     /*    background-position: center;*/
     height: auto;
     position: relative;
-/*    Splashbilledet skal være i lodretformat og fylde hele vinduet i mobilversion*/
+    /*    Splashbilledet skal være i lodretformat og fylde hele vinduet i mobilversion*/
 }
 
 
@@ -174,4 +174,44 @@
 .section4 p:first-child {
     font-style: italic;
     font-size: 20px;
+}
+
+/*------------Section5-------------*/
+.mintbox1 {
+    background-color: #BAC7BE;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 200px;
+    color: #585858;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.mintbox2 {
+    background-color: #BAC7BE;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 200px;
+    color: #585858;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.mintbox3 {
+    background-color: #BAC7BE;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 200px;
+    color: #585858;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+
 }
