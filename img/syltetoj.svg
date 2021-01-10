@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.4;
+        filter: url(#AI_Shadow_1);
+      }
+
+      .cls-2 {
+        fill: #911d22;
+      }
+
+      .cls-3 {
+        fill: #c90049;
+        stroke: #c90049;
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-4, .cls-7 {
+        stroke-linejoin: round;
+      }
+
+      .cls-4, .cls-7 {
+        fill: #ffe0c4;
+      }
+
+      .cls-4 {
+        stroke: #ffe0c4;
+      }
+
+      .cls-5 {
+        fill: #fffff5;
+      }
+
+      .cls-6 {
+        fill: #d0001b;
+      }
+
+      .cls-7, .cls-8 {
+        stroke: #534741;
+        stroke-linecap: round;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-9 {
+        fill: #466320;
+      }
+    </style>
+    <filter id="AI_Shadow_1" name="AI_Shadow_1">
+      <feGaussianBlur result="blur" stdDeviation="2" in="SourceAlpha"/>
+      <feOffset result="offsetBlurredAlpha" dx="4" dy="4" in="blur"/>
+      <feMerge>
+        <feMergeNode in="offsetBlurredAlpha"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g id="Syltetøj">
+    <g class="cls-1">
+      <ellipse cx="94.57" cy="145.19" rx="28.45" ry="3.68"/>
+    </g>
+    <g>
+      <rect class="cls-2" x="59.35" y="60.72" width="70.09" height="86.47" rx="30.95"/>
+      <ellipse class="cls-3" cx="112.9" cy="78.18" rx="4.56" ry="4.09"/>
+      <ellipse class="cls-3" cx="85.66" cy="87.21" rx="4.56" ry="4.09"/>
+      <ellipse class="cls-3" cx="108.48" cy="132.34" rx="4.56" ry="4.09"/>
+      <ellipse class="cls-3" cx="76.49" cy="122.97" rx="4.56" ry="4.09"/>
+      <ellipse class="cls-3" cx="121.17" cy="107.02" rx="4.56" ry="4.09"/>
+      <path class="cls-4" d="M65.36,66.14l-4.85,5.42s2.25,2.61,4.8,1,3.32-2.17,3.32-2.17,1.84-.56,1.74.88-.32,1.43.63,3,5.39-2.37,5.39-2.37.86-2.47,2.42-1.27-.1,3.41,1.87,4S84.85,71,84.85,71s.46-2.1,1.55-1.12-.08,2.77.73,4.09,3.12-.13,3.54-1.88,1.49-2.4,3-1.51.59,4,2,4.51,1.79-1.37,1.7-1.83,1.2-2.2,1.2-2.2,2-1.71,2.27-.07,1,4,2.11,3.73,2.9-3,2.9-3,1-1.79,1.69-.78.32,3.47,1.8,3.56,3.1-3.35,3.1-3.35.91-3.47,1.9-1.67-.55,6,1.82,6.08,3.14-5.07,3.14-5.07.87-1.83,2.38-.76,2.81,2.9,5.4,4.63c4.37,2.92-2.64-7.57-2.64-7.57"/>
+      <rect class="cls-4" x="63.4" y="57.01" width="61.98" height="11.53" rx="5.77"/>
+      <rect class="cls-5" x="68.01" y="91.9" width="52.77" height="30.24" rx="6.01"/>
+      <path class="cls-6" d="M108.29,104.42c1.83,4,1.06,9.23-2.31,9.29s-5.17-1.11-8.94-5.1c-3.1-3.28-.8-8.14,2.3-9.29S106.46,100.45,108.29,104.42Z"/>
+      <path class="cls-6" d="M80.75,106.47c-1.83,4-1,9.42,2.34,9.29,4-.16,6.08-1.57,9-5.08a6,6,0,0,0-2.35-9.29C86.59,100.23,82.58,102.51,80.75,106.47Z"/>
+      <path class="cls-7" d="M64.39,65.86l60.07.22s2.85-1,0-1.93-59-2.39-60.93,0S68,66.8,68,66.8s57.24,1.17,57.72,0"/>
+      <path class="cls-8" d="M62.69,64.15s-2.84-8.27-5.57-5.83S62.69,64.15,62.69,64.15Z"/>
+      <path class="cls-8" d="M63.17,64.33s-10.29-2.58-9.43,1.2S63.17,64.33,63.17,64.33Z"/>
+      <line class="cls-8" x1="63.17" y1="64.33" x2="59.63" y2="69.18"/>
+      <path class="cls-9" d="M93.19,105s1.27,3.37,0,3-.51-2.18-.51-2.18-.81,1.42-1.86,1.28.33-3.3.33-3.3-1.82,2.31-2.54,1.94.6-2.66.6-2.66-2,1.37-2.46,1.05.76-1.94.76-1.94-2.75-.69-2.2-1.37,4.25.36,4.25.36l1.5.9,1.45-2,1.19.73L92,102.93Z"/>
+      <path class="cls-9" d="M101.16,98.81s4-.1,3.16.84-2.47-.2-2.47-.2,1.27,1.1.81,2-3.41-1.25-3.41-1.25,1.93,2.23,1.33,2.75-2.67-1.29-2.67-1.29.9,2.07.4,2.42-1.84-1.23-1.84-1.23-1.53,2.17-2.1,1.5S96,100.77,96,100.77l1.4-1-1.71-1.83,1.13-.81,1.74,2.15Z"/>
+      <ellipse class="cls-5" cx="78.55" cy="92.99" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="71.9" cy="93.96" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="71.9" cy="96.7" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="71.38" cy="100.08" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="71.38" cy="104.98" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="71.38" cy="110.34" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="71.38" cy="115.76" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="71.9" cy="120.12" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="78.55" cy="120.12" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="85.28" cy="120.12" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="91.18" cy="120.12" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="97.83" cy="120.28" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="104.43" cy="120.12" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="110.66" cy="120.12" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="117.03" cy="119.68" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="117.48" cy="115.76" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="117.48" cy="111.62" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="117.48" cy="108.43" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="117.48" cy="105.05" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="117.48" cy="101.09" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="117.48" cy="97.33" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="117.48" cy="93.57" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="86.6" cy="92.97" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="94.39" cy="92.87" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="100.66" cy="92.87" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="107.4" cy="92.87" rx="4.58" ry="3.37"/>
+      <ellipse class="cls-5" cx="112.9" cy="92.6" rx="4.58" ry="3.37"/>
+    </g>
+  </g>
+</svg>

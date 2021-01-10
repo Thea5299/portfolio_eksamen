@@ -17,7 +17,7 @@
     <header class="main_header">
         <nav>
             <div class="logo">
-                <a href="forside.html">
+                <a href="index.html">
                     <h3>Thea Henriksen</h3>
                 </a>
             </div>
@@ -32,7 +32,7 @@
 
     <main id="main_wrapper">
         <div class="splash">
-            <img height=350 width=450 src="img/lampesplash.jpg" alt="Grøn væg og sort standerlampe">
+            <img id="lampe" src="img/lampesplash.jpg" alt="Grøn væg og sort standerlampe">
             <div class="text">
                 <h1>Portfolio</h1>
                 <h2>af Thea Henriksen</h2>
@@ -41,39 +41,45 @@
 
         <section id="section_wrapper">
 
-            <div class="section1">
+            <section class="section1">
                 <p>Lad os komme i gang...</p>
                 <p>Under første semester på KEAs mulitmediedesigner-uddannelse, har jeg arbejdet med forskellige temaer. Bl.a. inden for UX/UI, animation og redesign.</p>
-                <div class="billede1">
-                    <img height="350" width="250" src="img/pynt.jpg" alt="Kommode med plante, ur og skulptur i guld">
+                <div class="grid">
+                    <div class="indhold1">
+                        <div class="billede1">
+                            <img height="350" width="250" src="img/pynt.jpg" alt="Kommode med plante, ur og skulptur i guld">
+                        </div>
+                        <div class="ommig">
+                            <a href="ommig.html">Om mig</a>
+                        </div>
+                    </div>
+                    <div class="indhold2">
+                        <div class="billede2">
+                            <img height="350" width="250" src="img/kop.jpg" alt="Kop med kaffe">
+                        </div>
+                        <div class="portfolio">
+                            <a href="portfolio.html">Portfolio</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="ommig">
-                    <a href="ommig.html">Om mig</a>
-                </div>
-                <div class="billede2">
-                    <img height="350" width="250" src="img/kop.jpg" alt="Kop med kaffe">
-                </div>
-                <div class="portfolio">
-                    <a href="portfolio.html">Portfolio</a>
-                </div>
-            </div>
+            </section>
 
-            <div class="section2">
+            <section class="section2">
                 <div id="beigefirkant">
                     <img height="200" width="250" src="img/beigefirkant.jpg" alt="beige firkant (beige er bl.a. farven på papkasser, gammelt papir og mange naturprodukter)">
                 </div>
                 <div id="uibillede">
                     <img height="250" width="300" src="img/dor.jpg" alt="ensuite døre i stor hvid lejlighed med trægulv">
                 </div>
-            </div>
-            <div class="section3">
+            </section>
+            <section class="section3">
                 <p>Når man arbejder med design...</p>
                 <p>er det vigtigt at fokusere på flere forskellige aspekter. Under tema 3 om UI og UX, lærte jeg...</p>
                 <div class="uiux">
                     <a href="uiux.html">UI/UX</a>
                 </div>
-            </div>
-            <div class="section4">
+            </section>
+            <section class="section4">
                 <div class="box"></div>
                 <div id="mig">
                     <img height="280" width="280" src="img/linkedinbillede.jpg" alt="Billede af mig, hvor jeg har kort bølget hår og sort bluse på, samt en guld halskæde">
@@ -82,31 +88,39 @@
                     <p>Lidt om mig...</p>
                     <p>Mit navn er Thea Henriksen, jeg er 22 år og studerer multimediedesign på KEA. Til daglig bruger jeg meget tid på studiet, samt øver mig i design, både inden- og uden for digitale medier.</p>
                 </div>
-            </div>
-            <div class="section5">
+            </section>
+            <section class="section5">
                 <!--                <h3>Tjek også disse ud..</h3>-->
                 <div class="mintbox1">
-                    <p>Responsive site</p>
+                    <a href="responsivesite.html">Responsive site</a>
                 </div>
                 <div class="mintbox2">
-                    <p>Animation</p>
+                    <a href="animation.html">Animation</a>
                 </div>
                 <div class="mintbox3">
-                    <p>Redesign</p>
+                    <a href="redesign.html">Redesign</a>
                 </div>
 
 
 
-            </div>
+
+
+
+
+
+
+
+            </section>
         </section>
 
     </main>
     <section id="footer_wrapper">
         <footer id="footer">
-            <div class="some_wrapper"></div>
-            <h5>Sociale medier</h5>
-            <!--            <a href="https://www.linkedin.com/in/thea-henriksen-186660181/" class="fab fa-linkedin-in"></a>-->
-            <a href="https://www.instagram.com/farfarsgemmer/?hl=da" class="fa fa-instagram"></a>
+            <div class="some_wrapper">
+                <h5>Sociale medier</h5>
+                <!--            <a href="https://www.linkedin.com/in/thea-henriksen-186660181/" class="fab fa-linkedin-in"></a>-->
+                <a id="ig" href="https://www.instagram.com/farfarsgemmer/?hl=da" class="fa fa-instagram"></a>
+            </div>
         </footer>
     </section>
     <script src="javascript.js"></script>

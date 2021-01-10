@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.4;
+        filter: url(#AI_Shadow_1);
+      }
+
+      .cls-2 {
+        fill: #bcdce4;
+        stroke: #29abe2;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #abd3dd;
+      }
+
+      .cls-4 {
+        fill: #006837;
+      }
+
+      .cls-5 {
+        opacity: 0.7;
+      }
+
+      .cls-6 {
+        fill: #999;
+      }
+
+      .cls-7 {
+        fill: gray;
+      }
+    </style>
+    <filter id="AI_Shadow_1" name="AI_Shadow_1">
+      <feGaussianBlur result="blur" stdDeviation="2" in="SourceAlpha"/>
+      <feOffset result="offsetBlurredAlpha" dx="4" dy="4" in="blur"/>
+      <feMerge>
+        <feMergeNode in="offsetBlurredAlpha"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g id="Syltede_agurker" data-name="Syltede agurker">
+    <g class="cls-1">
+      <ellipse cx="100.66" cy="150.15" rx="33.97" ry="9.72"/>
+    </g>
+    <g>
+      <path class="cls-2" d="M128,143.48c0,4.86-9.85,11.41-27.31,11.41s-26.08-5.83-26.08-10.69S83.2,139,100.66,139,128,138.61,128,143.48Z"/>
+      <ellipse class="cls-3" cx="101.09" cy="54.49" rx="32.68" ry="7.93"/>
+      <path class="cls-4" d="M94.53,122c11.93,16.6,9.13,24.69,4.17,24.69S75.53,133,75.53,112.53s4.57-39.3,9-37C92.8,79.79,80.71,102.81,94.53,122Z"/>
+      <path class="cls-4" d="M110.76,138.71c-11.86,9.54-9.07,14.2-4.14,14.2s23-7.91,23-19.67-4.54-22.59-8.92-21.29C112.48,114.41,124.49,127.65,110.76,138.71Z"/>
+      <path class="cls-4" d="M112.66,114.36c2.78,15.4-2,19.81-5.46,18s-11.69-17.53-4.73-31.22,16.6-24.67,19-21.57C125.82,85.45,109.44,96.52,112.66,114.36Z"/>
+      <rect class="cls-5" x="64.39" y="50.76" width="72.55" height="106.41" rx="30.95"/>
+      <rect class="cls-6" x="68.49" y="48.97" width="65.28" height="14.01" rx="7"/>
+      <ellipse class="cls-7" cx="101.25" cy="50.76" rx="32.48" ry="7.93"/>
+    </g>
+  </g>
+</svg>

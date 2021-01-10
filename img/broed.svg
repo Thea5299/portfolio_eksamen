@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.4;
+        filter: url(#AI_Shadow_1);
+      }
+
+      .cls-2 {
+        fill: #ffbb7d;
+      }
+
+      .cls-3 {
+        fill: #bf8045;
+      }
+
+      .cls-4 {
+        fill: #ffcc9d;
+      }
+    </style>
+    <filter id="AI_Shadow_1" name="AI_Shadow_1">
+      <feGaussianBlur result="blur" stdDeviation="2" in="SourceAlpha"/>
+      <feOffset result="offsetBlurredAlpha" dx="4" dy="4" in="blur"/>
+      <feMerge>
+        <feMergeNode in="offsetBlurredAlpha"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g id="Brød">
+    <g class="cls-1">
+      <ellipse cx="81.49" cy="108.74" rx="51.07" ry="33.66" transform="translate(-22.76 21.58) rotate(-13.25)"/>
+    </g>
+    <g>
+      <path class="cls-2" d="M39.42,111.67c-5.66,24.47,22.69,38.47,55.74,35.63s64.91-22.78,63.93-45.92c-.78-18.34-24-25.89-57-23S43.77,92.83,39.42,111.67Z"/>
+      <ellipse class="cls-3" cx="99.25" cy="106.52" rx="60.55" ry="33.78" transform="translate(-16.82 18.63) rotate(-9.89)"/>
+      <path class="cls-2" d="M100.1,123.92S76.86,79.49,56,90.08C35.89,100.24,100.1,123.92,100.1,123.92Z"/>
+      <path class="cls-2" d="M136.72,121.29S110.12,64.39,84,76.36C60.53,87.13,136.72,121.29,136.72,121.29Z"/>
+      <path class="cls-2" d="M151.58,106.21S141.94,69.68,124.09,73C108.52,76,151.58,106.21,151.58,106.21Z"/>
+      <path class="cls-4" d="M68.66,127.18s-12.21-18.92-22.31-18.43S68.66,127.18,68.66,127.18Z"/>
+      <path class="cls-4" d="M100.1,123.92S75.9,88.12,56,90.08,100.1,123.92,100.1,123.92Z"/>
+      <path class="cls-4" d="M136.72,121.29S107,76.5,84,76.36,136.72,121.29,136.72,121.29Z"/>
+      <path class="cls-4" d="M151.58,106.21S138.43,75.07,124.09,73,151.58,106.21,151.58,106.21Z"/>
+    </g>
+  </g>
+</svg>

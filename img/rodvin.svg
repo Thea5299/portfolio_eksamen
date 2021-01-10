@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.4;
+        filter: url(#AI_Shadow_1);
+      }
+
+      .cls-2, .cls-5 {
+        fill: #c7b299;
+      }
+
+      .cls-2 {
+        stroke: #c7b299;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        fill: #546549;
+      }
+
+      .cls-4 {
+        fill: #740900;
+        opacity: 0.8;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+    <filter id="AI_Shadow_1" name="AI_Shadow_1">
+      <feGaussianBlur result="blur" stdDeviation="2" in="SourceAlpha"/>
+      <feOffset result="offsetBlurredAlpha" dx="4" dy="4" in="blur"/>
+      <feMerge>
+        <feMergeNode in="offsetBlurredAlpha"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g id="Rødvin">
+    <image class="cls-1" width="44" height="8" transform="translate(76.76 181.58)" xlink:href="R%C3%B8dvin1.png"/>
+    <rect class="cls-2" x="94.53" y="29.26" width="6.47" height="23.19"/>
+    <g>
+      <ellipse class="cls-3" cx="97.93" cy="36.46" rx="8.05" ry="2.53"/>
+      <polygon class="cls-3" points="106.74 99 89.12 99 91.46 36.97 104.31 36.97 106.74 99"/>
+      <rect class="cls-3" x="78.63" y="81.93" width="39.24" height="102.88" rx="12.67"/>
+      <rect class="cls-4" x="81.12" y="96.49" width="33.62" height="80.9" rx="6.25"/>
+      <rect class="cls-5" x="78.63" y="120.4" width="39.24" height="23.91"/>
+      <g>
+        <path class="cls-6" d="M91.14,127.92l-2,7.16h-.91l-1.72-6.22-1.72,6.22H83.9l-2-7.16h1l1.43,5.83L86,127.92H87.1l1.61,5.83,1.43-5.83Z"/>
+        <path class="cls-6" d="M95.11,135.08h-1v-7.16h1Z"/>
+        <path class="cls-6" d="M104.44,135.08h-1l-3.75-5.65v5.65h-.89v-7.16h1l3.75,5.65v-5.65h.91Z"/>
+        <path class="cls-6" d="M113.37,135.08H108v-7.16h5.17v.85H109V131h4v.85h-4v2.42h4.39Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

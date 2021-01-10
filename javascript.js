@@ -17,3 +17,12 @@
      console.log("toggleMenuKnap");
      menu.classList.toggle("menuknap_aktiv")
  }
+
+ // Overlay i portfolio
+ // function on() {
+ //     document.getElementById("overlay").style.display = "block";
+ // }
+ //
+ // function off() {
+ //     document.getElementById("overlay").style.display = "none";
+ // }

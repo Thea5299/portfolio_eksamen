@@ -10,7 +10,6 @@ nav {
 }
 
 
-
 /*------------logo-------------*/
 .logo {
     color: #585858;
@@ -18,9 +17,9 @@ nav {
     font-size: 10px;
     cursor: pointer;
     font-family: 'Open Sans Condensed', sans-serif;
-    position: absolute;
-    left: 3vw;
     text-decoration: none;
+    margin-left: -320px;
+    text-align: left;
 }
 
 .logo h3 {
@@ -41,7 +40,7 @@ body {
 .menu {
     position: absolute;
     right: 0px;
-    height: 60vh;
+    height: 30vh;
     top: 13vh;
     background-color: white;
     display: flex;
@@ -111,4 +110,199 @@ a {
 
 .some_wrapper {
     /* font skal sættes ind  */
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 8px;
+
 }
+
+
+#ig {
+    text-align: left;
+    color: white;
+}
+
+
+@media screen and (min-width: 470px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -30px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -70px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 510px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -100px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 510px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -100px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 580px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -120px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 630px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -160px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 675px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -190px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -200px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -230px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -230px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -250px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 875px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -275px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 925px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -310px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 925px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -310px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -350px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -380px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -430px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -500px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -520px;
+        text-align: left;
+    }
+}
+
+/*
+@media screen and (min-width: 1400px) {
+    .logo h3 {
+        font-size: 15px;
+        position: relative;
+        margin-left: -900px;
+        text-align: left;
+    }
+}
+*/

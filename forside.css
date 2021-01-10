@@ -1,21 +1,34 @@
 /*------------Splashbillede-------------*/
+#main_wrapper {
+    margin: 0 auto;
+}
 
-.splash {
-    /*    background-position: center;*/
-    height: auto;
+#lampe {
+    width: auto;
     position: relative;
-    /*    Splashbilledet skal være i lodretformat og fylde hele vinduet i mobilversion*/
+    text-align: center;
 }
 
 
 .text {
-    position: absolute;
+    position: relative;
     text-align: left;
     bottom: 20px;
     left: 20px;
+    margin-top: -130px;
+    margin-bottom: 40px;
     color: #585858;
     font-family: 'Open Sans Condensed', sans-serif;
     /*    font-style: italic;*/
+}
+
+.text h1 {
+    font-size: 35px;
+}
+
+.text h2 {
+    font-size: 22px;
+    margin-left: 2px;
 }
 
 /*------------Section1-------------*/
@@ -53,7 +66,7 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     display: block;
-    width: 57.7%;
+    width: 242px;
     margin-left: 46.3vw;
     margin-top: 2vw;
 
@@ -70,7 +83,7 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     display: block;
-    width: 57.7%;
+    width: 242px;
     margin-left: 46.3vw;
     margin-top: 2vw;
 
@@ -183,6 +196,7 @@
     width: 200px;
     text-align: center;
     margin: 0 auto;
+    margin-top: 15px;
     line-height: 200px;
     color: #585858;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -196,6 +210,7 @@
     width: 200px;
     text-align: center;
     margin: 0 auto;
+    margin-top: 15px;
     line-height: 200px;
     color: #585858;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -208,10 +223,183 @@
     width: 200px;
     text-align: center;
     margin: 0 auto;
+    margin-top: 15px;
     line-height: 200px;
     color: #585858;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
     margin-bottom: 50px;
 
+}
+
+/*
+.section5 a {
+    font-size: 13px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    letter-spacing: 0.5px;
+    margin-left: 15px;
+}
+*/
+
+@media screen and (min-width: 450px) {
+    #lampe {
+        height: 430px;
+        width: auto;
+        position: relative;
+        width: 100vw;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+
+    .ommig {
+        width: 242px;
+        margin-left: 47.4vw;
+        margin-top: 2vw;
+        padding: 5px;
+    }
+
+    .portfolio {
+        width: 242px;
+        margin-left: 47.4vw;
+        margin-top: 2vw;
+        padding: 5px;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    #lampe {
+        height: 490px;
+        width: auto;
+        position: relative;
+        width: 100vw;
+        text-align: center;
+    }
+
+
+    .ommig {
+        width: 242px;
+        margin-left: 47.4vw;
+        margin-top: 2vw;
+        padding: 5px;
+    }
+
+    .portfolio {
+        width: 242px;
+        margin-left: 47.4vw;
+        margin-top: 2vw;
+        padding: 5px;
+    }
+
+}
+
+
+@media screen and (min-width: 780px) {
+    #lampe {
+        height: 550px;
+        width: auto;
+        position: relative;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .text {
+        position: relative;
+        margin-top: -150px;
+    }
+
+    .text h1 {
+        font-size: 40px;
+    }
+
+    .text h2 {
+        font-size: 30px;
+    }
+
+    .grid {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .indhold1 {
+        padding: 10px;
+        height: 90%;
+        width: 80%;
+        margin-left: auto;
+
+    }
+
+    .indhold2 {
+        padding: 10px;
+        height: 90%;
+        width: 80%;
+        margin-right: auto;
+        margin-top:
+    }
+
+    .ommig {
+        width: 242px;
+        margin-left: 47.4vw;
+        margin-top: 2vw;
+        padding: 5px;
+
+    }
+
+    .portfolio {
+        width: 242px;
+        margin-left: 47.4vw;
+        margin-top: 2vw;
+        padding: 5px;
+    }
+
+}
+
+@media screen and (min-width: 990px) {
+    #lampe {
+        height: 650px;
+        width: auto;
+        position: relative;
+        width: 100vw;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    #lampe {
+        height: 660px;
+        width: auto;
+        position: relative;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .text {
+        position: relative;
+        margin-top: -200px;
+    }
+
+    .text h1 {
+        font-size: 50px;
+    }
+
+    .text h2 {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+    #lampe {
+        height: 700px;
+        width: auto;
+        position: relative;
+        width: 100vw;
+        text-align: center;
+    }
 }

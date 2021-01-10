@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        opacity: 0.4;
+        filter: url(#AI_Shadow_1);
+      }
+
+      .cls-3, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #99c4e3;
+      }
+
+      .cls-4, .cls-6 {
+        stroke: #cdecff;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+      }
+
+      .cls-6 {
+        fill: #66a7d5;
+      }
+
+      .cls-7 {
+        isolation: isolate;
+      }
+
+      .cls-8 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-9 {
+        fill: #d6e7f4;
+      }
+    </style>
+    <filter id="AI_Shadow_1" name="AI_Shadow_1">
+      <feGaussianBlur result="blur" stdDeviation="2" in="SourceAlpha"/>
+      <feOffset result="offsetBlurredAlpha" dx="4" dy="4" in="blur"/>
+      <feMerge>
+        <feMergeNode in="offsetBlurredAlpha"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="clip-path">
+      <polygon class="cls-1" points="92.87 116.11 92.89 104.51 123.79 100.17 123.77 111.76 92.87 116.11"/>
+    </clipPath>
+  </defs>
+  <g id="Mælk">
+    <g class="cls-2">
+      <ellipse cx="68.41" cy="105.96" rx="21.94" ry="51.35" transform="translate(-2.53 1.68) rotate(-1.38)"/>
+    </g>
+    <g>
+      <path class="cls-3" d="M113.36,46.87,78.16,49.3c-1,.07-1.87-1-1.87-2.44V43c0-1.33.77-2.41,1.73-2.45l35.2-1.32c1,0,1.83,1.08,1.83,2.46v2.75C115.05,45.73,114.31,46.81,113.36,46.87Z"/>
+      <polygon class="cls-4" points="129.89 151.51 84.38 160.79 85.4 67.75 130.4 63.01 129.89 151.51"/>
+      <polygon class="cls-4" points="57.49 152.24 84.38 160.79 85.33 67.57 58.91 62.34 57.49 152.24"/>
+      <polygon class="cls-4" points="130.45 62.5 85.6 67.57 76.29 47.88 115.05 45.61 130.45 62.5"/>
+      <polygon class="cls-4" points="76.1 47.84 82.36 60.48 85.4 67.75 71.41 65.22 59.51 62.5 68.25 55.35 76.1 47.84"/>
+      <polygon class="cls-5" points="84.69 130.06 58.19 123.42 58.48 89.49 84.69 95.22 84.69 130.06"/>
+      <polygon class="cls-5" points="129.89 122.68 84.69 130.06 85.4 95.06 130.48 89.26 129.89 122.68"/>
+      <polygon class="cls-6" points="80.71 57.15 83.13 62.34 85.33 67.57 68.88 64.69 59.51 62.5 67.29 60.53 80.71 57.15"/>
+      <g class="cls-7">
+        <g class="cls-8">
+          <g>
+            <polyline class="cls-9" points="101.54 103.3 99.72 103.55 97.19 113.57 94.72 104.25 92.89 104.51 92.87 116.11 94.03 115.94 94.04 106.08 96.65 115.57 97.74 115.42 100.39 105.19 100.37 115.05 101.52 114.89 101.54 103.3"/>
+            <polyline class="cls-9" points="105.62 102.72 104.4 102.89 104.37 114.49 105.6 114.32 105.62 102.72"/>
+            <polyline class="cls-9" points="109.68 102.15 108.47 102.32 108.44 113.92 114.14 113.12 114.14 111.74 109.66 112.37 109.68 102.15"/>
+            <polyline class="cls-9" points="123.61 100.19 121.97 100.42 117.47 106.8 117.48 101.06 116.26 101.23 116.24 112.82 117.46 112.65 117.47 108.63 118.9 106.66 122.16 111.99 123.77 111.76 119.75 105.5 123.61 100.19"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
