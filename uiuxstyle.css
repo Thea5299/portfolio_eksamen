@@ -1,3 +1,8 @@
+.section1 {
+    width: 100%;
+    /*    display: block;*/
+}
+
 .section1 h2 {
     text-align: left;
     margin-top: 10px;
@@ -12,9 +17,91 @@
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 20px;
     margin-left: -5px;
+    margin-bottom: auto;
 }
 
-/*
+.box1 {
+    background-color: #e3e3e3;
+    height: 280vw;
+    width: 92vw;
+    margin: auto;
+}
+
+.box1 p {
+    padding: 4vw;
+    margin: auto;
+    line-height: 22px;
+}
+
+#prototype {
+    margin-left: 2vw;
+}
+
+.box2 {
+    background-color: #e3e3e3;
+    height: 365vw;
+    width: 92vw;
+    margin: auto;
+}
+
+#skitse {
+    margin-left: 2vw;
+}
+
+#ideboks {
+    margin-left: 2vw;
+}
+
+.box2 p {
+    padding: 4vw;
+    margin: auto;
+    line-height: 22px;
+}
+
+.box3 {
+    background-color: #e3e3e3;
+    height: 365vw;
+    width: 92vw;
+    margin: auto;
+}
+
+#micro {
+    margin-left: 7.5vw;
+}
+
+.box3 p {
+    padding: 4vw;
+    margin: auto;
+    line-height: 22px;
+}
+
+#shop {
+    margin-left: 2vw;
+}
+
+a {
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: left;
+    letter-spacing: 0.5px;
+    margin-top: -70px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 20px;
+}
+
+p {
+    font-size: 13px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    letter-spacing: 0.5px;
+    margin-top: -70px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 20px;
+    color: #585858;
+}
+
 .box2 h3 {
     text-align: left;
     color: #585858;
@@ -39,42 +126,11 @@
     margin-left: -5px;
 }
 
+/*
 h4 {
     text-align: left;
     color: #585858;
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 20px;
     margin-left: -5px;
-}
-
-box1 {
-    background-color: #e3e3e3;
-
-    padding: 5px;
-    margin-top: 8px;
-
-    height: 580px;
-    width: 420px;
-}
-
-a {
-    font-size: 20px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: left;
-    letter-spacing: 0.5px;
-    margin-top: -70px;
-    margin-left: 15px;
-    margin-right: 15px;
-    line-height: 20px;
-}
-
-p {
-    font-size: 13px;
-    font-family: 'Playfair Display', serif;
-    text-align: left;
-    letter-spacing: 0.5px;
-    margin-top: -70px;
-    margin-left: 15px;
-    margin-right: 15px;
-    line-height: 20px;
 }*/
