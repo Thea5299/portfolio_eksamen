@@ -44,6 +44,11 @@
     font-size: 20px;
 }
 
+.section1 {
+    width: 100%;
+    display: block;
+}
+
 .billede1 {
     text-align: center;
     margin-top: 30px;
@@ -63,13 +68,12 @@
     color: #585858;
     background-color: #e3e3e3;
     padding: 4px;
-    transform: translate(-50%, -50%);
     cursor: pointer;
     display: block;
     width: 242px;
-    margin-left: 46.3vw;
-    margin-top: 2vw;
-
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4px;
 }
 
 .portfolio {
@@ -80,21 +84,26 @@
     color: #585858;
     background-color: #e3e3e3;
     padding: 4px;
-    transform: translate(-50%, -50%);
     cursor: pointer;
     display: block;
     width: 242px;
-    margin-left: 46.3vw;
-    margin-top: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4px;
 
 }
 
 /*------------Section2-------------*/
-#beigefirkant {
+.section2 {
+    width: 60vw;
+    height: 60vw;
+}
+
+#beigefirkant img {
 
     padding: 10px;
-    height: 90%;
-    width: 80%;
+    height: 70vw;
+    width: 70vw;
     margin-left: 5px;
     margin-right: auto;
     position: relative;
@@ -103,7 +112,7 @@
 
 }
 
-#uibillede {
+#uibillede img {
 
     padding: 10px;
     height: 90%;
@@ -312,24 +321,26 @@
         margin: auto;
     }
 
+    .billede1 {
+        margin-top: 0;
+
+    }
+
+    .billede2 {
+        margin-top: 0;
+    }
+
 
     .ommig {
-        margin-left: 175px;
-        /*margin-left: 16.4vw;*/
-        margin-top: 2vw;
         padding: 5px;
-        margin-right: 0;
 
     }
 
     .portfolio {
-        margin-left: 175px;
-        /*margin-left: 16.4vw;*/
-        margin-top: 2vw;
         padding: 5px;
-        margin-right: 0;
     }
 
+    /*
     #uibillede {
 
         padding: 10px;
@@ -341,6 +352,7 @@
         position: relative;
         z-index: 2;
     }
+*/
 
 }
 
