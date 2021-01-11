@@ -253,23 +253,6 @@
 
 }
 
-@media screen and (min-width: 500px) {
-
-    .ommig {
-        width: 242px;
-        margin-left: 47.4vw;
-        margin-top: 2vw;
-        padding: 5px;
-    }
-
-    .portfolio {
-        width: 242px;
-        margin-left: 47.4vw;
-        margin-top: 2vw;
-        padding: 5px;
-    }
-}
-
 
 @media screen and (min-width: 600px) {
     #lampe {
@@ -278,21 +261,6 @@
         position: relative;
         width: 100vw;
         text-align: center;
-    }
-
-
-    .ommig {
-        width: 242px;
-        margin-left: 47.4vw;
-        margin-top: 2vw;
-        padding: 5px;
-    }
-
-    .portfolio {
-        width: 242px;
-        margin-left: 47.4vw;
-        margin-top: 2vw;
-        padding: 5px;
     }
 
 }
@@ -321,41 +289,57 @@
     }
 
     .grid {
-        width: 100%;
+        width: 80vw;
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
     .indhold1 {
-        padding: 10px;
+        margin-right: 0;
         height: 90%;
         width: 80%;
-        margin-left: auto;
-
+        display: block;
+        margin: auto;
     }
 
     .indhold2 {
-        padding: 10px;
+        margin-right: 0;
         height: 90%;
         width: 80%;
-        margin-right: auto;
-        margin-top:
+        margin-top: 15vw;
+        display: block;
+        margin: auto;
     }
 
+
     .ommig {
-        width: 242px;
-        margin-left: 47.4vw;
+        margin-left: 175px;
+        /*margin-left: 16.4vw;*/
         margin-top: 2vw;
         padding: 5px;
+        margin-right: 0;
 
     }
 
     .portfolio {
-        width: 242px;
-        margin-left: 47.4vw;
+        margin-left: 175px;
+        /*margin-left: 16.4vw;*/
         margin-top: 2vw;
         padding: 5px;
+        margin-right: 0;
+    }
+
+    #uibillede {
+
+        padding: 10px;
+        height: 90%;
+        width: 50%;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 2;
     }
 
 }

@@ -1,5 +1,5 @@
 /*------------Section1-------------*/
-.section1 h3 {
+.overskrift h3 {
     color: #585858;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
@@ -14,7 +14,7 @@
 }
 
 .mintbox1 {
-    background-color: #ff0000;
+    background-color: #BAC7BE;
     height: 200px;
     width: 400px;
     text-align: center;
@@ -26,18 +26,8 @@
     font-size: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
-    /*    z-index: 2;*/
-/*
-    display: block;
-    width: 95%;
-    height: auto;
-*/
 }
 
-.mintbox1_overlay {
-    background-color: black;
-    opacity: 1;
-}
 
 .mintbox2 {
     background-color: #BAC7BE;
@@ -78,23 +68,45 @@
     font-size: 20px;
 }
 
-/*
-#overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    transition: .5 ease;
-    z-index: 2;
-    cursor: pointer;
+@media screen and (min-width: 700px) {
+    .overskrift h3 {
+        font-size: 30px;
+    }
 }
-*/
 
-.mintbox1:hover .mintbox1_overlay {
-    opacity: 1;
+@media screen and (min-width: 900px) {
+
+    .section1 {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+
+    .mintbox1 {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .mintbox2 {
+        margin-right: auto;
+        margin-top: auto;
+        margin-left: 0;
+
+    }
+
+    .mintbox3 {
+        margin-left: auto;
+        margin-right: 20px;
+
+    }
+
+    .mintbox4 {
+        margin-right: auto;
+        margin-left: 0;
+
+    }
+
 }
