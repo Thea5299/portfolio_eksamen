@@ -388,7 +388,7 @@
 
     #beigefirkant img {
         margin-top: 15vw;
-        margin-left: -4vw;
+        margin-left: -7vw;
         width: 36vw;
         height: 36vw;
     }
@@ -396,7 +396,41 @@
     .section3 {
         margin: auto;
         grid-column: 2/4;
-        margin-top: -30vw;
+        margin-top: -50vw;
+        margin-left: 12vw;
+    }
+
+    .uiux {
+        width: 80%;
+        margin-left: 21vw;
+        margin-top: -7vw;
+        padding: 0.5vw;
+    }
+
+    .section4 {
+        width: 80vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10vw;
+    }
+
+    .billedebox {
+        margin-top: -60vw;
+        margin-right: -6vw;
+        grid-column: 2/3;
+    }
+
+    .textbox {
+        margin-top: -39vw;
+        margin-left: -5.5vw;
+        width: 230%;
+        height: 23vw;
+    }
+
+    .section4 p {
+        margin-right: 10vw;
+        line-height: 3vw;
     }
 
 }
