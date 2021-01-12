@@ -22,7 +22,7 @@
 
 .box1 {
     background-color: #e3e3e3;
-    height: 350vw;
+    height: 385vw;
     width: 92vw;
     margin: auto;
 }
@@ -204,6 +204,7 @@ p {
         margin-top: -80vw;
         margin-bottom: 12vw;
         grid-column: 2/3;
+
 
     }
 }
