@@ -416,7 +416,7 @@
     }
 
     .billedebox {
-        margin-top: -60vw;
+        margin-top: -65vw;
         margin-right: -6vw;
         grid-column: 2/3;
     }
@@ -433,6 +433,16 @@
         line-height: 3vw;
     }
 
+    .section5 {
+        width: 80vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .mintbox1 {
+        margin-top: 1.9vw;
+    }
 }
 
 @media screen and (min-width: 990px) {
