@@ -61,7 +61,6 @@ body {
 
 }
 */
-
 /*    synligør menuknappen(burgerbar)*/
 .menuknap {
     color: #585858;
@@ -107,7 +106,6 @@ a {
 }
 
 .some_wrapper {
-    /* font skal sættes ind  */
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
     text-decoration: none;
@@ -120,4 +118,21 @@ a {
 #ig {
     text-align: left;
     color: white;
+}
+
+@media screen and (min-width: 750px) {
+/*
+    .menuknap {
+        display: none;
+    }
+
+    .menu a {
+        color: #585858;
+        text-decoration: none;
+        font-family: 'Open Sans Condensed', sans-serif;
+
+
+    }
+*/
+}
 }

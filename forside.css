@@ -101,7 +101,6 @@
 }
 
 #beigefirkant img {
-
     padding: 10px;
     height: 90%;
     width: 80%;
@@ -127,7 +126,7 @@
 
 /*------------Section3-------------*/
 .section3 {
-    margin-top: 20vw;
+    margin: auto;
 }
 
 .section3 p {
@@ -135,12 +134,16 @@
     font-family: 'Playfair Display', serif;
     text-align: left;
     letter-spacing: 0.5px;
+    line-height: 4vw;
     margin-left: 15px;
+    margin-bottom: 10vw;
 }
 
 .section3 p:first-child {
     font-style: italic;
     font-size: 20px;
+    margin-bottom: 3vw;
+    line-height: 6vw;
 }
 
 .uiux {
@@ -170,14 +173,14 @@
     margin-left: 205px;
     margin-right: auto;
     position: relative;
-    margin-top: 50px;
+    margin-top: 80vw;
     z-index: 1;
 }
 
 #mig {
     position: relative;
     margin-left: 70px;
-    margin-top: -125px;
+    margin-top: -25vw;
     display: inline-block;
     overflow: hidden;
     border-radius: 300px;
@@ -246,6 +249,22 @@
 
 }
 
+.mintbox1:hover {
+    opacity: 80%;
+    color: white;
+}
+
+.mintbox2:hover {
+    opacity: 80%;
+    color: white;
+}
+
+.mintbox3:hover {
+    opacity: 80%;
+    color: white;
+}
+
+
 /*
 .section5 a {
     font-size: 13px;
@@ -302,6 +321,10 @@
         font-size: 30px;
     }
 
+    .txt {
+        padding: 2vw;
+    }
+
     .grid {
         width: 80vw;
         margin: 0 auto;
@@ -338,26 +361,43 @@
 
     .ommig {
         padding: 5px;
+        /*        width: 30.6vw;*/
 
     }
 
     .portfolio {
         padding: 5px;
+        /*        width: 30.6vw;*/
     }
 
-    /*
-    #uibillede {
-
-        padding: 10px;
-        height: 90%;
-        width: 50%;
-        margin-top: auto;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        z-index: 2;
+    .section2 {
+        width: 80vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10vw;
     }
-*/
+
+
+    #uibillede img {
+        margin-top: 22vw;
+        margin-left: -35vw;
+        width: 45vw;
+        height: 35vw;
+    }
+
+    #beigefirkant img {
+        margin-top: 15vw;
+        margin-left: -4vw;
+        width: 36vw;
+        height: 36vw;
+    }
+
+    .section3 {
+        margin: auto;
+        grid-column: 2/4;
+        margin-top: -30vw;
+    }
 
 }
 
