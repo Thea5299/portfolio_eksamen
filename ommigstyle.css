@@ -34,3 +34,31 @@ p {
     margin-left: 15px;
     line-height: 20px;
 }
+
+@media screen and (min-width: 680px) {
+    .section1 {
+        height: auto;
+        width: 80vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .box {
+        margin-left: 18vw;
+        grid-column: 1/2;
+
+    }
+
+    #mig {
+        margin-left: 5vw;
+        grid-column: 1/2;
+        border-radius: 100vw;
+        margin-bottom: 2vw;
+    }
+
+    .textbox {
+        margin-top: -15vw;
+        grid-column: 2/3;
+    }
+}

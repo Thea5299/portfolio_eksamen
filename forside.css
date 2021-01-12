@@ -39,6 +39,14 @@
     letter-spacing: 0.5px;
 }
 
+.section1 a {
+    font-size: 13px;
+    font-family: 'Playfair Display',
+    serif;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
 .section1 p:first-child {
     font-style: italic;
     font-size: 20px;
@@ -183,7 +191,7 @@
     margin-top: -25vw;
     display: inline-block;
     overflow: hidden;
-    border-radius: 300px;
+    border-radius: 50vw;
     z-index: 2;
 }
 
@@ -415,17 +423,37 @@
         grid-gap: 10vw;
     }
 
-    .billedebox {
-        margin-top: -65vw;
-        margin-right: -6vw;
+    .box {
+        margin-right: auto;
         grid-column: 2/3;
     }
+
+    #mig {
+        margin-right: auto;
+        grid-column: 2/3;
+    }
+
+    .textbox {
+        grid-column: 1/2;
+    }
+
+    /*
+.billedebox {
+    margin-right: -6vw;
+    grid-column: 2/3;
+}
+*/
 
     .textbox {
         margin-top: -39vw;
         margin-left: -5.5vw;
         width: 230%;
         height: 23vw;
+    }
+
+    .section4 {
+        margin: auto;
+        margin-top: -60vw;
     }
 
     .section4 p {
@@ -482,9 +510,126 @@
 @media screen and (min-width: 1300px) {
     #lampe {
         height: 700px;
-        width: auto;
-        position: relative;
-        width: 100vw;
-        text-align: center;
+    }
+
+    .splash h1 {
+        font-size: 8vw;
+        margin: auto;
+        margin-top: -18vw;
+        margin-left: 2vw;
+    }
+
+    .splash h2 {
+        margin-left: 2.5vw;
+        margin-top: 0;
+    }
+
+
+    .billede1 img {
+        margin: auto;
+        width: 30vw;
+        height: 40vw;
+    }
+
+    .billede2 img {
+        margin: auto;
+        width: 30vw;
+        height: 40vw;
+    }
+
+    .txt {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    .txt p:first-child {
+        font-size: 2vw;
+    }
+
+    .txt p {
+        font-size: 1.2vw;
+    }
+
+    .ommig {
+        width: 29.3vw;
+    }
+
+    .portfolio {
+        width: 29.3vw;
+    }
+
+    .section2 {
+        margin: auto;
+    }
+
+    .section3 p {
+        line-height: 2vw;
+        margin-top: 10vw;
+        margin-left: 3vw;
+        font-size: 1.2vw;
+    }
+
+    .section3 p:first-child {
+        line-height: 2vw;
+        margin-top: 11vw;
+        margin-bottom: -6vw;
+        font-size: 2vw;
+    }
+
+    .uiux {
+        margin: auto;
+        margin-left: 11.5vw;
+        padding: 1vw;
+        width: 15vw;
+    }
+
+    .section4 {
+        height: 210vw;
+    }
+
+    .box {
+        margin-top: auto;
+        margin-bottom: -45vw;
+        padding: 2vw;
+        margin-left: -10vw;
+        border-radius: 20vw;
+    }
+
+    #mig {
+        margin: auto;
+        border-radius: 500px;
+        margin-left: -22vw;
+    }
+
+    .textbox {
+        margin-bottom: 70vw;
+        margin-left: 10vw;
+        height: 16vw;
+        width: 50vw;
+    }
+
+    .textbox p {
+        font-size: 1.2vw;
+        line-height: 2vw;
+    }
+
+    .textbox p:first-child {
+        font-size: 2vw;
+    }
+
+    .section5 {
+        margin-top: -100vw;
+    }
+
+    .mintbox1 {
+        padding: 3vw;
+    }
+
+    .mintbox2 {
+        padding: 3vw;
+    }
+
+    .mintbox3 {
+        padding: 3vw;
     }
 }

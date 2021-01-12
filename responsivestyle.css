@@ -112,3 +112,93 @@ p {
     padding: 20px;
     margin-left: -5px;
 }
+
+@media screen and (min-width: 780px) {
+    .web {
+        margin: 0 auto;
+        margin-left: 3vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        display: block;
+    }
+
+    #splash {
+        width: 40vw;
+        height: 30vw;
+        position: relative;
+    }
+
+    #site {
+        width: 40vw;
+        height: 30vw;
+        position: relative;
+    }
+
+    #galleri {
+        width: 40vw;
+        height: 50vw;
+        position: relative;
+    }
+
+    .box1 {
+        height: 100vw;
+    }
+
+    .section1 p {
+        font-size: 1.2vw;
+        margin-top: -2vw;
+        margin-bottom: -3vw;
+        margin-left: -1.8vw;
+    }
+
+    .section1 a {
+        font-size: 1.2vw;
+    }
+
+    .section1 h2 {
+        font-size: 2vw;
+        margin: 2vw;
+    }
+
+    .box1 h3 {
+        font-size: 1.8vw;
+    }
+
+    .tekst p {
+        margin-left: 42vw;
+        margin-right: 3vw;
+        margin-top: -53vw;
+        line-height: 2.3vw;
+    }
+
+    #link {
+        margin: auto;
+        margin-left: 46vw;
+
+    }
+
+    .section2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .box2 {
+        height: 100vw;
+    }
+
+    .box2 h3 {
+        font-size: 1.8vw;
+    }
+
+    .box2 p {
+        line-height: 2.3vw;
+
+    }
+
+    #font {
+        width: 40vw;
+        height: 20vw;
+        grid-column: 2/3;
+
+    }
+}

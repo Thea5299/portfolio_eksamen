@@ -109,25 +109,54 @@
     .mintbox1 {
         margin-left: auto;
         margin-right: 20px;
+        padding: 2vw;
     }
 
     .mintbox2 {
         margin-right: auto;
         margin-top: auto;
         margin-left: 0;
+        padding: 2vw;
 
     }
 
     .mintbox3 {
         margin-left: auto;
         margin-right: 20px;
+        padding: 2vw;
 
     }
 
     .mintbox4 {
         margin-right: auto;
         margin-left: 0;
+        padding: 2vw;
 
+    }
+
+    .mintbox1 {
+        margin-left: auto;
+        margin-right: 20px;
+        padding: 2vw;
+    }
+
+    .mintbox2 {
+        margin-right: auto;
+        margin-top: auto;
+        margin-left: 0;
+        padding: 2vw;
+
+    }
+
+    .mintbox3 {
+        margin-left: auto;
+        margin-right: 20px;
+        padding: 2vw;
+
+    }
+
+    .section1 a {
+        font-size: 1.8vw;
     }
 
 }
