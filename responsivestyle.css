@@ -183,21 +183,26 @@ p {
     }
 
     .box2 {
-        height: 100vw;
+        height: 45vw;
     }
 
     .box2 h3 {
         font-size: 1.8vw;
+        margin-left: 1vw;
     }
 
-    .box2 p {
-        line-height: 2.3vw;
-
+    .box2 p:first-child {
+        line-height: 2.8vw;
+        font-size: 1.2vw;
+        margin-right: 50vw;
     }
 
     #font {
         width: 40vw;
         height: 20vw;
+        margin-left: 45vw;
+        margin-top: -80vw;
+        margin-bottom: 12vw;
         grid-column: 2/3;
 
     }
