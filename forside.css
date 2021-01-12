@@ -42,7 +42,7 @@
 .section1 a {
     font-size: 13px;
     font-family: 'Playfair Display',
-    serif;
+        serif;
     text-align: center;
     letter-spacing: 0.5px;
 }
@@ -623,6 +623,7 @@
 
     .mintbox1 {
         padding: 3vw;
+        margin-top: 1.2vw;
     }
 
     .mintbox2 {
@@ -630,6 +631,19 @@
     }
 
     .mintbox3 {
+        padding: 3vw;
+    }
+
+    .mintbox1 a {
+        padding: 3vw;
+
+    }
+
+    .mintbox2 a {
+        padding: 3vw;
+    }
+
+    .mintbox3 a {
         padding: 3vw;
     }
 }

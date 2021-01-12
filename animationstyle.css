@@ -96,10 +96,6 @@ h4 {
 
 .box1 {
     background-color: #e3e3e3;
-    /*
-    padding: 5px;
-    margin-top: 8px;
-*/
     height: 125vw;
     width: 92.8vw;
 }
@@ -230,12 +226,6 @@ p {
 }
 
 
-/*
-.assetliste {
-    position: relative;
-}
-*/
-
 #maelk {
     position: relative;
     grid-column: 1/2;
@@ -322,4 +312,106 @@ p {
     height: 40vw;
     width: 40vw;
     margin-left: 4vw;
+}
+
+@media screen and (min-width: 1300px) {
+
+    .section1 h2 {
+        font-size: 2vw;
+    }
+
+    .box1 h3 {
+        font-size: 1.8vw;
+    }
+
+    .box2 h3 {
+        font-size: 1.8vw;
+    }
+
+    .box3 h3 {
+        font-size: 1.8vw;
+    }
+
+    .box4 h3 {
+        font-size: 1.8vw:
+    }
+
+    .box1 {
+        height: 45vw;
+        width: 97.7vw;
+    }
+
+    .box1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .spil img {
+        width: 40vw;
+        height: 60vw;
+        position: relative;
+        grid-column: 1/2;
+        margin-left: -5vw;
+    }
+
+    .pitch {
+        margin-top: -36vw;
+        margin-left: 2.5vw;
+    }
+
+    #spilher {
+        margin-left: 1vw;
+        padding: 2vw;
+    }
+
+    .section1 p {
+        font-size: 1.2vw;
+        line-height: 2vw;
+    }
+
+    .box2 {
+        height: 80vw;
+        width: 97.7vw;
+    }
+
+    .section2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #html {
+        width: 30vw;
+        height: 30vw;
+        position: relative;
+        grid-column: 1/2;
+        grid-row: 1/1;
+        margin-left: 4vw;
+    }
+
+    .htmltext {
+        margin-right: 65vw;
+        grid-column: 1/2;
+        grid-row: 2/2;
+    }
+
+    #css {
+        position: relative;
+        width: 20vw;
+        height: 20vw;
+        grid-column: 2/3;
+        margin-left: 4vw;
+    }
+
+    #js {
+        position: relative;
+        width: 20vw;
+        height: 20vw;
+    }
+
+
+
+    .csstext {}
+
+    .jstext {}
+}
 }
