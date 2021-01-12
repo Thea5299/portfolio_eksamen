@@ -183,14 +183,71 @@ h4 {
     }
 
     .box2 {
-        height: 70vw;
+        height: 90vw;
         width: 97.7vw;
         margin-top: 5vw;
     }
 
-    .box2 {
+    .box2 p {
+        line-height: 2.8vw;
+        font-size: 1.2vw;
+    }
+
+    .txt1 p {
+        margin-left: 40vw;
+        margin-top: -57vw;
+    }
+
+    #skitse {
+        width: 30vw;
+        height: 40vw;
+        margin-left: 5vw;
+        margin-top: 1vw;
+        margin-bottom: 12vw;
+
+    }
+
+    #ideboks {
+        margin-left: 5vw;
+    }
+
+    .txt2 p {
+        margin-left: 40vw;
+        margin-top: -25vw;
+    }
+
+    .box3 {
+        height: 110vw;
+        width: 97.7vw;
+        margin-top: 5vw;
+    }
+
+    .uddrag {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .box3 p {
+        line-height: 2.8vw;
+        font-size: 1.2vw;
+    }
+
+    #micro {
+        margin-bottom: 5vw;
+    }
+
+    .microtxt p {
+        margin-left: -10vw;
+        margin-top: 10vw;
+    }
+
+    #shop {
+        margin-left: 6vw;
+    }
+
+    .shoptxt p {
+        margin-left: -10vw;
+        margin-top: 10vw;
     }
 
 }
