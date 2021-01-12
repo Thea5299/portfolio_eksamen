@@ -135,4 +135,62 @@ h4 {
     margin-left: -5px;
 }*/
 
-@media screen and (min-width: 700px) {}
+@media screen and (min-width: 700px) {
+    .section1 h2 {
+        font-size: 2vw;
+    }
+
+    .box1 h3 {
+        font-size: 1.8vw;
+    }
+
+    .box2 h3 {
+        font-size: 1.8vw;
+    }
+
+    .box3 h3 {
+        font-size: 1.8vw;
+    }
+
+    .box4 h3 {
+        font-size: 1.8vw:
+    }
+
+    .box1 {
+        height: 70vw;
+        width: 97.7vw;
+    }
+
+    .box1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .box1 p {
+        font-size: 1.2vw;
+        line-height: 2vw;
+        margin-top: 12vw;
+        margin-left: -10vw;
+        margin-right: 8vw;
+    }
+
+    #prototype {
+        margin-left: 10vw;
+        margin-top: -18vw;
+        width: 25vw;
+        height: 60vw;
+    }
+
+    .box2 {
+        height: 70vw;
+        width: 97.7vw;
+        margin-top: 5vw;
+    }
+
+    .box2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

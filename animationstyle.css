@@ -314,7 +314,7 @@ p {
     margin-left: 4vw;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 800px) {
 
     .section1 h2 {
         font-size: 2vw;
