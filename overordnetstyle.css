@@ -128,19 +128,4 @@ a {
         margin-left: -13vw;
     }
 
-
-    .menu a {
-        color: #585858;
-        text-decoration: none;
-        font-size: 14px;
-        font-family: 'Open Sans Condensed', sans-serif;
-
-    }
-
-    .menu li {}
-
-    .menuknap {
-        display: none;
-    }
-
 }
