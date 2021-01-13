@@ -121,18 +121,26 @@ a {
 }
 
 @media screen and (min-width: 750px) {
-/*
-    .menuknap {
-        display: none;
+    .logo h3 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 15px;
+        position: relative;
+        margin-left: -13vw;
     }
+
 
     .menu a {
         color: #585858;
         text-decoration: none;
+        font-size: 14px;
         font-family: 'Open Sans Condensed', sans-serif;
 
-
     }
-*/
-}
+
+    .menu li {}
+
+    .menuknap {
+        display: none;
+    }
+
 }

@@ -16,7 +16,6 @@
     color: #585858;
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 20px;
-    margin-left: aut;
     margin-bottom: auto;
 }
 
@@ -45,9 +44,17 @@ p {
     color: #585858;
 }
 
+.section2 h3 {
+    text-align: left;
+    color: #585858;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 20px;
+    margin-bottom: auto;
+}
+
 .box2 {
     background-color: #e3e3e3;
-    height: 365vw;
+    height: 570vw;
     width: 92vw;
     margin: auto;
 }
@@ -81,7 +88,7 @@ p {
 }
 
 #interview {
-    margin-left: 2vw;
+    margin-left: -2vw;
     margin-top: 3vw;
     height: 50vw;
     width: 88vw;
@@ -93,4 +100,222 @@ p {
     margin-top: 3vw;
     height: 60vw;
     width: 88vw;
+}
+
+.section2 a {
+    font-size: 3.5vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: left;
+    margin-left: 4vw;
+
+}
+
+#nytsite {
+    margin-left: 2vw;
+    width: 88vw;
+    height: 45vw;
+}
+
+#produktside {
+    margin-top: 2vw;
+    margin-left: 6vw;
+    width: 80vw;
+    height: 110vw;
+}
+
+.section3 h3 {
+    text-align: left;
+    color: #585858;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 20px;
+    margin-bottom: auto;
+}
+
+.box3 {
+    background-color: #e3e3e3;
+    height: 340vw;
+    width: 92vw;
+    margin: auto;
+}
+
+.box3 p {
+    padding: 4vw;
+    margin: auto;
+    line-height: 22px;
+}
+
+.box3 h3 {
+    text-align: left;
+    color: #585858;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 20px;
+    margin-left: -5px;
+}
+
+#kande {
+    width: 85vw;
+    height: 85vw;
+    margin-left: 3vw;
+}
+
+#kopper {
+    width: 85vw;
+    height: 85vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+
+#aebler {
+    width: 85vw;
+    height: 85vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+
+@media screen and (min-width: 800px) {
+    #section_wrapper h3 {
+        font-size: 1.8vw;
+    }
+
+    #section_wrapper h2 {
+        font-size: 2vw;
+    }
+
+    #section_wrapper p {
+        font-size: 1vw;
+        line-height: 2vw;
+    }
+
+    #section_wrapper a {
+        font-size: 1.2vw;
+        line-height: 2vw;
+    }
+
+    .box1 {
+        height: 42vw;
+        width: 97.7vw;
+    }
+
+    .box1 p:first-of-type {
+        margin-top: -4vw;
+        margin-left: -2vw;
+    }
+
+    #pilotvideo {
+        width: 50vw;
+        height: 30vw;
+        margin-top: -2vw;
+    }
+
+    .pilot {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pilot p:first-of-type {
+        margin-top: 5vw;
+    }
+
+    .box2 {
+        height: 210vw;
+        width: 97.7vw;
+        margin-top: 2vw;
+    }
+
+    .box2 p:first-of-type {
+        margin-top: -4vw;
+        margin-left: -2vw;
+    }
+
+    #wpress {
+        height: 50vw;
+        width: 40vw;
+        grid-column: 1/2;
+        margin-left: 2vw;
+    }
+
+    .box2 p:first-of-type {
+        margin-top: -2vw;
+        margin-bottom: -5vw;
+    }
+
+
+    .vksite p {
+        margin-left: -2vw;
+        margin-bottom: -3vw;
+
+    }
+
+    #linkvk {
+        margin-left: 2vw;
+
+    }
+
+    .nytsite p:first-of-type {
+        margin-right: 20vw;
+    }
+
+    .nytsite p {
+        margin-bottom: -2vw;
+    }
+
+    #nytsite {
+        width: 60vw;
+        height: 25vw;
+        margin-top: 2vw;
+        /*        grid-column: 1/2;*/
+    }
+
+    #produktside {
+        width: 70vw;
+        height: 45vw;
+        margin-left: 2vw;
+    }
+
+    .videogrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #interview {
+        width: 45vw;
+        height: 30vw;
+        margin-right: 1vw;
+    }
+
+    #some {
+        width: 45vw;
+        height: 30vw;
+        margin-left: -2.5vw;
+    }
+
+    .box3 {
+        height: 60vw;
+        width: 97.7vw;
+        margin-top: 2vw;
+    }
+
+    .box3 p {
+        margin-left: -2vw;
+        margin-right: 10vw;
+
+    }
+
+    #kande {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    #kopper {
+        width: 30vw;
+        height: 30vw;
+        margin-left: 1vw;
+
+    }
+
+    #aebler {
+        width: 30vw;
+        height: 30vw;
+        margin-left: 1vw;
+    }
 }
